@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h2 style="color:SlateBlue;">YOU ARE NOW CONNECTED TO BLOOD BANK DBMS</h2>
+        <form><h2><input type = "text" style="color:SlateBlue;" name = "xx" readonly="readonly" value={{name}}></h2></form>
+        <form action="/disp/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Display Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm"/></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Display Table</button>
+        </form>
+        <form action="/digi/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">See Tables Present</button>
+        </form>
+        <form action="/Squerry/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Select Query</button>
+        </form>
+        <form action="/back/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Back</button>
+        </form>
+    </body>
+</html>

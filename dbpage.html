@@ -1,0 +1,50 @@
+<html>
+    
+    <body>
+        <h2 style="color:SlateBlue;">YOU ARE NOW CONNECTED TO BLOOD BANK DBMS</h2>
+        <form action="/create/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Create Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm"/></p>
+            <p style="color:SlateBlue;">Enter no of attributes:</p>
+            <p><input type = "text" name = "ab"/></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Create Table</button>
+        </form>
+        <form action="/disp/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Display Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm"/></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Display Table</button>
+        </form>
+        <form action="/insert1/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Insert into Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm" /></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Insert into Table</button>
+        </form>
+        <form action="/delete/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Delete Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm"/></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Delete Table</button>
+        </form>
+        <form action="/drop/" method="post" style="background-color:#CBC3E3;">
+            <h3 style="color:SlateBlue;">Drop Table</h3>
+            <p style="color:SlateBlue;">Enter Table Name:</p>
+            <p><input type = "text" name = "nm"/></p>
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Drop Table</button>
+        </form>
+        <form action="/digi/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">See Tables Present</button>
+        </form>
+        <form action="/Squerry/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Select Query</button>
+        </form>
+        <form action="/Uquerry/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Update Query</button>
+        </form>
+        <form action="/back/" method="post">
+            <button name="forwardBtn" type="submit" style="background-color:SlateBlue;color:white">Back</button>
+        </form>
+    </body>
+</html>
